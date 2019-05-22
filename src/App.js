@@ -30,11 +30,15 @@ function App() {
             .filter(d => dateRange[1] >= new Date(d.timestamp));
           setData(temp);
         }
+      })
+      .catch(err => {
+        setData([]);
+        console.error(err);
       });
   }, [dateRange]);
 
   return (
-    <div>
+    <div className='container'>
       <DateTimePicker dateRange={dateRange} setDateRange={d => setDateRange(d)} />
       <GraphComponent data={data} />
       <TableComponent data={data} />

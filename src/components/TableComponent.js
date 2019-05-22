@@ -26,5 +26,16 @@ const columns = [
 ];
 
 export default function TableComponent(props) {
-  return <ReactTable data={props.data} columns={columns} defaultPageSize={5} sortable filterable minRows={0} />;
+  return (
+    <ReactTable
+      data={props.data}
+      columns={columns}
+      minRows={0}
+      defaultPageSize={5}
+      showPaginationBottom={false}
+      showPaginationTop
+      sortable
+      filterable
+    />
+  );
 }

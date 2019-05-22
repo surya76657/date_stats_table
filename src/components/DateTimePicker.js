@@ -12,5 +12,9 @@ export default function DateTimePicker({ dateRange, setDateRange }) {
     setDate(d);
     setDateRange(d);
   };
-  return <DateRangePicker onChange={onChange} value={dateRange} maxDate={new Date()} />;
+  return (
+    <div style={{ padding: '20px' }}>
+      <DateRangePicker onChange={onChange} value={dateRange} maxDate={new Date()} />
+    </div>
+  );
 }
