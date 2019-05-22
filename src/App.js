@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Axios from 'axios';
 import TableComponent from './components/TableComponent';
+import GraphComponent from './components/GraphComponent';
 
 function App() {
   const [data, setData] = React.useState([]);
@@ -24,7 +25,7 @@ function App() {
   return (
     <div>
       <div>Date picker</div>
-      <div>graph</div>
+      <GraphComponent data={data} />
       <TableComponent data={data} />
     </div>
   );
