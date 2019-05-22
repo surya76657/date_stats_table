@@ -34,7 +34,7 @@ export default function GraphComponent(props) {
   };
 
   return (
-    <div style={{ height: '500px', width: '500px' }}>
+    <div className='line-graph'>
       <Line data={data1(data)} />
     </div>
   );
