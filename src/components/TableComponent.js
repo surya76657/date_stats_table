@@ -27,17 +27,19 @@ const columns = [
 
 export default function TableComponent(props) {
   return (
-    <div style={{ width: '100%', padding: '50px' }}>
-      <ReactTable
-        data={props.data}
-        columns={columns}
-        minRows={0}
-        defaultPageSize={5}
-        showPaginationBottom={false}
-        showPaginationTop
-        sortable
-        filterable
-      />
+    <div style={{ width: '100%' }}>
+      <div style={{ padding: '20px' }}>
+        <ReactTable
+          data={props.data}
+          columns={columns}
+          minRows={0}
+          defaultPageSize={5}
+          showPaginationBottom={false}
+          showPaginationTop
+          sortable
+          filterable
+        />
+      </div>
     </div>
   );
 }

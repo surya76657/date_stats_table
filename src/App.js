@@ -26,10 +26,11 @@ function App() {
       .then(data => {
         if (data && data.length) {
           const temp = data
+            .sort((a, b) => (new Date(a.timestamp) > new Date(b.timestamp) ? -1 : 1))
             .filter(d => dateRange[0] <= new Date(d.timestamp))
             .filter(d => dateRange[1] >= new Date(d.timestamp));
           setData(temp);
-        }
+        } else setData([]);
       })
       .catch(err => {
         setData([]);
