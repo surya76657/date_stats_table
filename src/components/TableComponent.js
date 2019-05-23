@@ -3,26 +3,11 @@ import ReactTable from 'react-table';
 import 'react-table/react-table.css';
 
 const columns = [
-  {
-    Header: 'timestamp',
-    accessor: 'timestamp'
-  },
-  {
-    Header: 'game',
-    accessor: 'game'
-  },
-  {
-    Header: 'revenue',
-    accessor: 'revenue'
-  },
-  {
-    Header: 'impressions',
-    accessor: 'impressions'
-  },
-  {
-    Header: 'eCPM',
-    accessor: 'eCPM'
-  }
+  { Header: 'timestamp', accessor: 'timestamp' },
+  { Header: 'game', accessor: 'game' },
+  { Header: 'revenue', accessor: 'revenue' },
+  { Header: 'impressions', accessor: 'impressions' },
+  { Header: 'eCPM', accessor: 'eCPM' }
 ];
 
 export default function TableComponent(props) {
