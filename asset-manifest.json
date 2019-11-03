@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/date_stats_table/static/css/main.ff2fb4bd.chunk.css",
+    "main.js": "/date_stats_table/static/js/main.75da91d2.chunk.js",
+    "main.js.map": "/date_stats_table/static/js/main.75da91d2.chunk.js.map",
+    "runtime~main.js": "/date_stats_table/static/js/runtime~main.6f92dab2.js",
+    "runtime~main.js.map": "/date_stats_table/static/js/runtime~main.6f92dab2.js.map",
+    "static/css/2.a3455d1a.chunk.css": "/date_stats_table/static/css/2.a3455d1a.chunk.css",
+    "static/js/2.06fa9868.chunk.js": "/date_stats_table/static/js/2.06fa9868.chunk.js",
+    "static/js/2.06fa9868.chunk.js.map": "/date_stats_table/static/js/2.06fa9868.chunk.js.map",
+    "index.html": "/date_stats_table/index.html",
+    "precache-manifest.349ca93c51387f927051063887fd94e1.js": "/date_stats_table/precache-manifest.349ca93c51387f927051063887fd94e1.js",
+    "service-worker.js": "/date_stats_table/service-worker.js",
+    "static/css/2.a3455d1a.chunk.css.map": "/date_stats_table/static/css/2.a3455d1a.chunk.css.map",
+    "static/css/main.ff2fb4bd.chunk.css.map": "/date_stats_table/static/css/main.ff2fb4bd.chunk.css.map"
+  }
+}
